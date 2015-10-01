@@ -633,7 +633,7 @@ Esta conexión requiere el [certificado de la FNMT](https://www.sede.fnmt.gob.es
 Como este certificado no está entre los certificado de Firefox, pues lo copiamos a mano:
 
 	wget https://www.sede.fnmt.gob.es/documents/11614/116099/FNMTClase2CA.cer
-	sudo cp FNMTClase2CA.cer/opt/Citrix/ICAClient/keystore/cacerts
+	sudo cp FNMTClase2CA.cer /opt/Citrix/ICAClient/keystore/cacerts
 
 
 ## Fecha
