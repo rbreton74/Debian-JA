@@ -1,4 +1,4 @@
-DEBIAN 7 PARA LA JA
+DEBIAN PARA LA JA
 ---
 
 Instrucciones de postinstalación para **Debian 7 (wheezy) 64 bits**
