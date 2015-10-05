@@ -815,7 +815,7 @@ Modificamos el fichero  */etc/fstab* añadiendo cada una entrada para cada recur
 
 (ejemplo):
 
-	//precdpto.ceice.junta-andalucia.es/<compartido> /mnt/<punto_montaje> cifs credential=/home/<usuario>/.credentials.cifs,uid=\<usuario\>,iocharset=utf8,sec=ntlm 0 0
+	//precdpto.ceice.junta-andalucia.es/<compartido> /mnt/<punto_montaje> cifs credential=/home/<usuario>/.credentials.cifs,uid=\<usuario\>,iocharset=utf8,sec=ntlm,noserverino 0 0
 
 El fichero `/home/<usuario>/.credential.cifs` debe tener nuestros usuario y **contraseña del dominio**:
 
