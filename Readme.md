@@ -599,7 +599,7 @@ Instalamos el paquete:
 
 	sudo dpkg -i ~/Downloads/icaclient_*.deb ctxusb_*.deb 
 
-Si nos aparecen mensajes de error como esteL
+Si nos aparecen mensajes de error como este:
 
 ```
 `dpkg: problemas de dependencias impiden la configuración de icaclient:
@@ -611,7 +611,7 @@ Procesando disparadores para gnome-menus ...
 Procesando disparadores para menu ...
 Se encontraron errores al procesar:
  icaclient
-Si nos da un mensaje de error de que falta un 
+
 ```
 
 Entonces forzamos la instalación: 
@@ -623,6 +623,11 @@ Instalamos certificados de firefox
 
 	sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts/
 	sudo c_rehash /opt/Citrix/ICAClient/keystore/cacerts/
+
+Si, a pesar de lo anterior, Citrix nos muestra un error en un certificado de la FNMT, copiamos manualmente el certificado de la FNMT en 
+	
+	sudo cp FNMTClase2CA-FNMT.pem /opt/Citrix/ICAClient/keystore/cacerts/
+
 
 
 #### Conexión a GIRO
