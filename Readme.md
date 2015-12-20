@@ -248,7 +248,7 @@ Descargamos la [última versión de Java](https://www.java.com/es/download/linux
 
     /usr/lib/jvm/jre1.7.0/bin/ControlPanel
       
- ![Ajustes de seguridad de JAVA](https://dl.dropbox.com/s/lxv9v045nlpq0qs/java%20ajustes%20de%20seguridad%20baja.png)
+ ![Ajustes de seguridad de JAVA](https://www.dropbox.com/s/qsd5ltdpda9wwrk/java%20ajustes%20de%20seguridad%20baja.png?dl=1)
     
 Por último, verificamos JAVA:
 
@@ -356,7 +356,7 @@ Comprobamos la seguridad. Desde un terminal como usuario (no root) ejecutamos:
 
 
 
-![Consola JAVA - Seguridad](https://dl.dropbox.com/s/zrq6fh5vgr5z2pk/Configuraci%C3%B3n%20Consola%20JAVA-Seguridad.png)
+![Consola JAVA - Seguridad](https://www.dropbox.com/s/gc1qa3yu2z6mxr4/Configuraci%C3%B3n%20Consola%20JAVA-Seguridad.png?dl=1)
 
 
 ## Tipos de letra
@@ -484,7 +484,7 @@ Utilizamos el gestor de configuración de impresoras antiguo:
 
 Añadir impresora de red:
 
-![Nueva impresora red SMB](https://dl.dropbox.com/s/iaoao0lfwxr4aqn/a%C3%B1adir%20nueva%20impresora.png)
+![Nueva impresora red SMB](https://www.dropbox.com/s/v0ffwwex95o0fbl/a%C3%B1adir%20nueva%20impresora.png?dl=1)
 
 
 
@@ -768,7 +768,7 @@ Comprobamos la seguridad. Desde un terminal como usuario (no root) ejecutamos:
 
 
 
-![Consola JAVA - Seguridad](https://dl.dropbox.com/s/zrq6fh5vgr5z2pk/Configuraci%C3%B3n%20Consola%20JAVA-Seguridad.png)
+![Consola JAVA - Seguridad](https://www.dropbox.com/s/gc1qa3yu2z6mxr4/Configuraci%C3%B3n%20Consola%20JAVA-Seguridad.png?dl=1)
 
 
 
@@ -844,9 +844,9 @@ Si no lo está, instalar el diccionario de Thunderbird en español:
 
 #### Ajustes de gnome
 
-Es conveninente cambiar algunos ajustes por defecto de Gnome (para ver servidores conectadores, papelera, etcl.)
+Es conveniente cambiar algunos ajustes por defecto de Gnome (para ver servidores conectadores, papelera, etcl.)
 
-![image](https://dl.dropbox.com/s/nqxp48k697iby52/5121417cd845801777bc0e3ead07d04f.png)
+![image](https://www.dropbox.com/s/poqhq92vhbmb5p2/cambio_ajuste_gnome.png?dl=1)
 
 #### Ajustes De Gnome-Tweak-Tool ####
 
@@ -856,4 +856,4 @@ Si no se muestran los iconos de Maximinar y Minimizar, los habilitamos desde `gn
 
 Una vez instalada, 
 
-![Gnome-tweak-tool](https://dl.dropbox.com/s/tdbjddtoe0ag7g0/gnome-tweak-tool.png)
+![Gnome-tweak-tool](https://www.dropbox.com/s/x4kd6goqllrmvi9/gnome-tweak-tool.png?dl=1)
