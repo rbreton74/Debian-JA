@@ -588,14 +588,12 @@ Información basada en:
 
 Descargamos el software de la web de CITRIX:
 
-<http://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-131.html>
+<https://www.citrix.com/downloads/citrix-receiver.html>
 
 
 Elegimos `For 64-bit Systems` y descargamos los ficheros `.deb`
 
-<http://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-131.html#ctx-dl-eula>
-
-Instalamos el paquete:
+Después, instalamos el paquete descargado:
 
 	sudo dpkg -i ~/Downloads/icaclient_*.deb ctxusb_*.deb 
 
@@ -628,7 +626,15 @@ Si, a pesar de lo anterior, Citrix nos muestra un error en un certificado de la 
 	
 	sudo cp FNMTClase2CA-FNMT.pem /opt/Citrix/ICAClient/keystore/cacerts/
 
+#### Configuración de Firefox
 
+https://help.ubuntu.com/community/CitrixICAClientHowTo
+
+En Firefox, ir a “Herramientas -> Complementos -> Plugins” y asegurarse que "Citrix Receiver for Linux" esta puesto a "Always Activate".
+
+Por defecto los plugins en Firefox no se activa si no que la opción por defecto es “Preguntar para activar”. Pero esta opción no se visualiza y se debe seleccionar “Activar siempre en la menú anterior. Otra posibilidad es activar desde la barra de menú pulsando sobre este icono:
+
+![Firefox Activar Plugin](/img/Firefox-Activar_plugin_barra_menu.png”)
 
 #### Conexión a GIRO
 
