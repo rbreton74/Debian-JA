@@ -244,6 +244,18 @@ Descargamos la [última versión de Java](https://www.java.com/es/download/linux
 	sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jre1.7.0/bin/javaws" 1   
     sudo update-alternatives --config javaws
  
+ Nos aparece varios opciones y elegimos la que acabamos de instalar (en este caso la 2):
+ 
+    Existen 2 opciones para la alternativa javaws (que provee /usr/bin/javaws).
+    
+      Selección   Ruta                                 Prioridad  Estado
+    ------------------------------------------------------------
+    * 0            /usr/lib/jvm/jre1.7.0/bin/javaws      1         modo automático
+      1            /usr/lib/jvm/jre1.7.0/bin/javaws      1         modo manual
+      2            /usr/lib/jvm/jre1.7.0_80/bin/javaws   0         modo manual
+
+Pulse <Intro> para mantener el valor por omisión [*] o pulse un número de selección: 2
+ 
  Establecemos lo ajustes de seguridad de java:
 
     /usr/lib/jvm/jre1.7.0/bin/ControlPanel
