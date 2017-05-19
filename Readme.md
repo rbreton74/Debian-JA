@@ -634,9 +634,15 @@ Instalamos certificados de firefox
 	sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts/
 	sudo c_rehash /opt/Citrix/ICAClient/keystore/cacerts/
 
-Si, a pesar de lo anterior, Citrix nos muestra un error en un certificado de la FNMT, copiamos manualmente el certificado de la FNMT en 
+Si, a pesar de lo anterior, Citrix nos muestra un error en un certificado de la FNMT, copiamos manualmente los certificado de la FNMT siguientes:
+
+- FNMT Clase 2 CA (nº serie 921770777)
+- AC FNMT (nº serie 5D 93 8D 30 67 36 C8 06 1D 1A C7 54 84 69 07) 
+- AC Componentes Informáticos (nº serie 34 C6 AB 04 4E 36 99 12 51 C8 25 0B 6C 94 D6 C0 )
 	
 	sudo cp FNMTClase2CA-FNMT.pem /opt/Citrix/ICAClient/keystore/cacerts/
+	sudo cp ACFNMT.pem /opt/Citrix/ICAClient/keystore/cacerts/
+	sudo cp ACComponentesInformáticos.pem /opt/Citrix/ICAClient/keystore/cacerts/
 
 #### Configuración de Firefox
 
