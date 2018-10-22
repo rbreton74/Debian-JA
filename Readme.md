@@ -652,7 +652,7 @@ En Firefox, ir a “Herramientas -> Complementos -> Plugins” y asegurarse que 
 
 Por defecto los plugins en Firefox no se activa si no que la opción por defecto es “Preguntar para activar”. Pero esta opción no se visualiza y se debe seleccionar “Activar siempre en la menú anterior. Otra posibilidad es activar desde la barra de menú pulsando sobre este icono:
 
-![Firefox Activar Plugin](/img/Firefox-Activar_plugin_barra_menu.png”)
+![Firefox Activar Plugin](img/Firefox-Activar_plugin_barra_menu.png)
 
 #### Conexión a GIRO
 
